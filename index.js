@@ -40,7 +40,6 @@ const play = (validInputs, matchups) => (player1input, player2input) => {
   }
 
   const { text, winningPlayer } = findMatchup(p1normalisedInput, p2normalisedInput, matchups);
-  console.log(text)
 
   return `Player ${winningPlayer} wins! ${text}.`;
 };
